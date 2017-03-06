@@ -1,0 +1,26 @@
+1. Create a database which will have 4 tables:
+	1.1 Album has 3 columns:
+		- id		: integer type, AUTOINCREMENT, primary_key.
+		- artist_id	: integer type.
+		- name		: text type
+
+	1.2 Artist has 2 columns:
+		- id		: integer type, AUTOINCREMENT, primary_key.
+		- name		: text type
+
+	1.3 Genre has 2 columns:
+		- id		: integer type, AUTOINCREMENT, primary_key.
+		- name		: text type
+
+	1.4 Track has 7 columns:
+		- id		: integer type, AUTOINCREMENT, primary_key.
+		- title		: text type
+		- album_id	: integer type
+		- genre_id	: integer type
+		- length	: integer type
+		- rating	: integer type
+		- count		: integer type
+
+2. Read data in Library.xml which contains track informations, then insert into 4 tables created.
+
+ 
